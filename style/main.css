@@ -215,9 +215,8 @@ nav ul li:hover {
 }
 .who_we_are_txt p{
     color: #1E1E1E;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 35px; /* 194.444% */
+    font-size: 13px;
+    line-height: 25px; /* 194.444% */
 }
 
 .who_we_are_banner .who_we_are_img{
