@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -8,102 +7,54 @@
     font-family: 'Rubik', sans-serif;
 }
 
-header{
-    width: 100%;
+header {
+    max-width: 1250px;
     margin: auto;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    background-color: #F9F9F9;
-
 }
 
-nav ul li{
-
-    color: #C4C4C4;
-    font-family: Rubik;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    list-style: none;
-    display: inline;
+nav ul li {
+    display: inline-block;
     padding: 0px 20px;
-}
-
-nav ul li:hover{
-    cursor: pointer;color: rgba(5, 139, 140, 1);
-    
-}
-
-.services_btn{
-    color: #058B8C;
-    font-family: Rubik;
+    color: #C4C4C4;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
 }
 
-.phone_btn{
-    width: 232px;
-    height: 89px;
-    color: #ffffff;
+nav ul li:hover {
+    color: rgba(5, 139, 140, 1);
+    cursor: pointer;
+}
+
+.header_btn {
     border-radius: 48px;
     background: #058B8C;
     box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    padding: 10px 20px;
+    color: #fff;
+}
 
+.header_btn:hover {
+    color: #fff;
 }
 
 
 
+/* footer */
 footer {
-    width: 100%;
+    max-width: 1250px;
     margin: auto;
     padding: 10px;
     display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.col_one{
-    margin-left: 90px;
-}
-
-.col_one_txt {
-    color: #8F8F8F;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
-
-}
-
-.col_two{
-    margin-left: 5px;
-}
-
-
-
-.col_two ul{
-    color: #8F8F8F;
-    list-style: none;
-    
-}
-
-.col_two ul li{
-    padding: 20px;
-}
-.col_three ul{
-    color: #8F8F8F;
-    list-style: none;
-    line-height: 30px; /* 166.667% */
-}
-
-
-.col_four ul li {
+.coloumn_three ul li {
     list-style: none;
     color: #8F8F8F;
     font-family: Rubik;
@@ -141,4 +92,117 @@ footer {
     line-height: 30px;
     /* 166.667% */
     border: none;
+}
+
+
+/* Banner Section */
+.page_width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.banner_section {
+    padding: 50px 0px;
+    background: url("../assets/images/home/banner/bg_banner.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.banner_inner_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.banner_inner_section .banner_img {
+    padding: 20px;
+}
+
+.banner_inner_section .banner_img img {
+    border-radius: 50%;
+}
+
+.banner_inner_section .banner_content {
+    margin-top: 130px;
+}
+
+.banner_inner_section .banner_content small {
+    border-radius: 30px;
+    background: #058B8C;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    padding: 5px 10px;
+}
+
+.banner_inner_section .banner_content .intro {
+    margin-top: 10px;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.banner_inner_section .banner_content h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.6px;
+}
+
+.banner_inner_section .banner_content h2 span {
+    color: #058B8C;
+}
+
+.banner_inner_section .banner_content .description {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.banner_button .btn_1 {
+    border-radius: 48px;
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.banner_button .btn_2 {
+    border-radius: 48px;
+    background: transparent;
+    /* box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset; */
+    border: 2px solid #1E1E1E;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
 }
