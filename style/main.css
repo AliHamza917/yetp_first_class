@@ -189,8 +189,7 @@ nav ul li:hover {
     font-weight: 600;
     line-height: 40px; /* 142.857% */
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /*Quick Service Banner */
 .quick_service_banner{
     width: 100%;
@@ -224,23 +223,20 @@ nav ul li:hover {
 }
 
 
-=======
-=======
->>>>>>> Final
 /*Who We Are Banner*/
 .who_we_are_banner{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .who_we_are_img{
-    padding: 30px;
+    padding: 20px;
 }
 .who_we_are_img img{
     border-radius: 400px;
 }
 
 .who_we_are_txt h1{
-    padding-top: 70px ;
+    padding-top: 80px ;
     color: #1E1E1E;
     font-size: 60px;
     font-weight: 400;
