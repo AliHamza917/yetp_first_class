@@ -331,6 +331,81 @@ nav ul li:hover {
     padding-left: 15px;
 }
 
+/* Our Client Banner */
+.our_clients_banner{
+    width: 100%;
+}
+
+.our_clients_banner_main .squre{
+    padding: 10px;
+}
+
+.our_clients_banner_main .widget{
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+    
+}
+
+.our_clients_banner h1{
+  
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -1.8px;
+}
+
+.our_clients_banner h1 b{
+    
+    color: #058B8C;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+}
+
+.our_clients_banner p{
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.our_clients_banner .our_clients_banner_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+
+.our_clients_banner_main .widget table tr td img{
+    width: 109px;
+    height: 109px;
+}
+
+.our_clients_banner_main .widget table tr td h3{
+    color: #1E1E1E;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px; /* 136.364% */
+}
+
+.our_clients_banner_main .widget table tr td h3 img{
+
+    width: 250px;
+    height: 25px;
+    padding-left: 11px;
+
+}
+
+.our_clients_banner_main .widget p{
+    text-align: left;
+    color: #1E1E1E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
 /*Quick Service Banner */
 .quick_service_banner{
     width: 100%;
