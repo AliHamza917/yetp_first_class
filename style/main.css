@@ -222,6 +222,52 @@ nav ul li:hover {
     padding-bottom: 10px;
 }
 
+/* Services Banner */
+.services_banner{
+    background: url(../assets/images/home/banner/service-display-bg.svg);
+    background-repeat: no-repeat;
+}
+.services_banner .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.services_banner .widget{
+    padding: 5px;
+}
+.services_banner h1{
+
+    color: #1E1E1E;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -1.8px;
+
+}
+
+.services_banner h1 b{
+    color: #058B8C;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+}
+
+.services_banner .widget .service_squre{
+    width: 300px;
+    height: 350px;
+    background-image: url(../assets/images/home/who_img.jpg);
+    border-radius: 30px;
+    opacity: 0.8;
+
+}
+
+.services_banner .widget .service_squre h1{
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 300PX;
+    line-height: 40px; /* 125% */
+    opacity: 1;
+}
 
 /*Who We Are Banner*/
 .who_we_are_banner{
